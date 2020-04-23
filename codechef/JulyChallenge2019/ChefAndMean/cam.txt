@@ -1,0 +1,12 @@
+This question can be done with simple mathematics.
+Put
+
+s/n = s-x/n-1
+x = s/n;
+
+therefore a coin with value of average is to be removed to maintain average
+
+Note: Subtracting average from sum doesn't change the average. Also number of observations must also be reduced.
+
+search for the coin in O(n);
+return the first value you find - given
